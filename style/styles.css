@@ -763,9 +763,12 @@ desc-div ul li {
 	border: 2px solid blue;
 }
 
-
 /*enhance page*/
 .myEnhance {
+	display: flex;
+}
+
+.grp-pro-bag {
 	display: flex;
 }
 
@@ -805,6 +808,21 @@ desc-div ul li {
   	padding-top: 15px
   }
 
+  .grp-pro-bag {
+		flex-direction: column;
+	}
+
+	.desc-box-2 {
+    width: unset;
+    height: unset;;
+    padding: 5px;
+}
+
+#hbag {
+    height: unset;
+    width: 100%;
+
+}
 
 }
 
@@ -896,6 +914,14 @@ desc-div ul li {
   .container {
   	margin: 0px;
   }
+
+  .desc-box-1 {
+    width: auto;
+    padding: 5px;
+    margin: 0px;
+  }
+
+
 
 
   }
