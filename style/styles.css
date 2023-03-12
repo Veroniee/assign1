@@ -757,16 +757,22 @@ desc-div ul li {
 
 .enhance-inner {
 	justify-content: center;
-	padding: 5%;
 	width: 500px;
-	max-width: 100%;
+	max-width: 95%;
 	border: 2px solid blue;
 }
 
 /*enhance page*/
 .myEnhance {
 	display: flex;
+	justify-content: center;
 }
+
+.myEnhance p {
+	padding: 5%;
+}
+
+
 
 .grp-pro-bag {
 	display: flex;
