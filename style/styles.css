@@ -813,13 +813,13 @@ desc-div ul li {
 	}
 
 	.desc-box-2 {
-    width: unset;
-    height: unset;;
+    width: auto;
+    height: auto;;
     padding: 5px;
 }
 
 #hbag {
-    height: unset;
+    height: auto;
     width: 100%;
 
 }
