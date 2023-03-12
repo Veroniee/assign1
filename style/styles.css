@@ -6,8 +6,10 @@ body {
     font-family: "optima", "Helvetica", "Sans-serif"; 
     margin: 0px;
     font-size: 20px;
+}
 
-
+p {
+	word-wrap: break-word;
 }
 
 .logo {
@@ -511,7 +513,6 @@ dl {
   dt {
     float: left;
     clear: left;
-    width: 111px;
     text-align: right;
     font-weight: bold;
     color: #1d3154 ;
@@ -519,10 +520,7 @@ dl {
   dt::after {
     content: ":";
   }
-  dd {
-    margin: 0 0 0 119px;
-    padding: 0 0 0.5em 0;
-  }
+  
 
   .about-sec2 {
   	text-align: center;
@@ -757,9 +755,18 @@ desc-div ul li {
 }
 
 
+.enhance-inner {
+	justify-content: center;
+	padding: 5%;
+	width: 500px;
+	max-width: 100%;
+	border: 2px solid blue;
+}
+
+
 /*enhance page*/
 .myEnhance {
-	border: 2px solid blue;
+	display: flex;
 }
 
 @media only screen and (max-width: 900px) {
@@ -797,6 +804,7 @@ desc-div ul li {
   	padding: 0px;
   	padding-top: 15px
   }
+
 
 }
 
@@ -883,6 +891,10 @@ desc-div ul li {
 
   #pro-img1 {
   	margin-top: 20px;
+  }
+
+  .container {
+  	margin: 0px;
   }
 
 
