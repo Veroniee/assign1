@@ -20,6 +20,7 @@ p {
   height: 50px;
   position: relative;
   padding: 20px;
+  cursor: pointer;
 }
 
 .nav > .nav-header {
@@ -31,6 +32,7 @@ p {
   font-size: 30px;
   color: black;;
   padding: 10px 10px 10px 10px;
+
 }
 
 .nav > .nav-btn {
@@ -42,6 +44,7 @@ p {
   float: right;
   font-size: 18px;
   color: black;
+
 }
 
 .nav > .nav-links > a {
@@ -472,6 +475,8 @@ ol li {
 .about-sec1 {
 	background-color: #f0efea;
 }
+
+
 figure {
 	
 	margin: 0;
@@ -499,6 +504,8 @@ figcaption {
 
 }
 
+
+/*time table*/
 
 dl {
 		margin: 0;
@@ -624,6 +631,7 @@ tbody tr:last-of-type {
 	letter-spacing: .5px;
 }
 
+/*quantity button select 1-6*/
 .quanti {
 	width: 27%;
 	padding: 0 13px;
@@ -643,10 +651,13 @@ tbody tr:last-of-type {
 	
 }
 
+
 select:focus.quanti {
 	background: #801e1e;
 	border: 0;
 }
+
+
 
 /*product description section */
 .pro-desc {
@@ -661,6 +672,7 @@ select:focus.quanti {
 	padding: 0 5%;
 }
 
+/*product description list*/
 desc-div ul li {
 	list-style-type: circle;
   margin-block-end: 0.5em;
@@ -757,9 +769,9 @@ desc-div ul li {
 
 .enhance-inner {
 	justify-content: center;
-	width: 500px;
+	width: 65%;
 	max-width: 95%;
-	border: 2px solid blue;
+	border:2px dashed purple;
 }
 
 /*enhance page*/
@@ -814,9 +826,7 @@ desc-div ul li {
   	padding-top: 15px
   }
 
-  .grp-pro-bag {
-		flex-direction: column;
-	}
+  
 
 	.desc-box-2 {
     width: auto;
@@ -853,6 +863,11 @@ desc-div ul li {
    margin-right: 0px;
 	}
 
+	.grp-pro-bag {
+		flex-direction: column;
+		align-items: center;
+	}
+
 }
 
 @media (max-width:600px) {
@@ -862,22 +877,27 @@ desc-div ul li {
     right: 0px;
     top: 0px;
     margin-right: 5px;
+    
 
   }
   .nav > .nav-btn > label {
     width: 50px;
     height: 50px;
     padding: 13px;
+    c
+    
 
   }
   .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
     background-color: rgba(0, 0, 0, 0.3);
+    
   }
   .nav > .nav-btn > label > span {
     display: block;
     width: 25px;
     height: 10px;
     border-top: 2px solid black;
+
   }
   .nav > .nav-links {
     position: absolute;
